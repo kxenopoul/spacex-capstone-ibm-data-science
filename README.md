@@ -8,14 +8,19 @@ I worked with SpaceX Falcon 9 launch data. I wanted to see which factors are rel
 
 This was a guided IBM project. The labs included instructions and starter code. I completed the assigned tasks, ran the notebooks and checked the results. I did not write the whole project from scratch.
 
-- I tried to collect data from the SpaceX REST API.
-- I used requests and BeautifulSoup to get Falcon 9 launch data from Wikipedia.
-- I cleaned the data with Pandas and created a column for landing success.
-- I used SQL to check launch sites, payload mass and mission outcomes.
-- I made charts with Matplotlib and Seaborn.
-- I used Folium to show launch sites and nearby locations on maps.
-- I built a Plotly Dash dashboard with a dropdown menu and a payload slider.
-- I trained four classification models: Logistic Regression, SVM, Decision Tree and KNN.
+Data collection: I worked on the SpaceX API requests, but some calls failed. In the web scraping lab, I extracted launch records from Wikipedia tables and saved them in a Pandas DataFrame.
+
+Data wrangling: I checked missing values, counted landing outcomes and created the Class column (1 for a successful landing, 0 otherwise).
+
+Data visualization: I completed scatter plots, a bar chart and a line chart. I compared flight number, payload mass, launch site, orbit type and landing success over time.
+
+SQL: I wrote queries to find launch sites, filter records, calculate payload statistics and count different mission and landing outcomes.
+
+Folium: I added launch site markers and colored landing outcome markers. I also measured distances to nearby points, including a railway, a highway and the coastline.
+
+Plotly Dash: I completed the dropdown, payload range slider and callback tasks in the provided dashboard app. I used a pie chart and a scatter plot to explore the results.
+
+Machine learning: I completed the preprocessing and classification tasks with Logistic Regression, SVM, Decision Tree and KNN. I used GridSearchCV to compare parameter settings and checked accuracy scores and confusion matrices.
 
 ## Results
 
