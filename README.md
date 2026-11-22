@@ -6,6 +6,8 @@ I worked with SpaceX Falcon 9 launch data. I wanted to see which factors are rel
 
 ## What I did
 
+This was a guided IBM project. The labs included instructions and starter code. I completed the assigned tasks, ran the notebooks and checked the results. I did not write the whole project from scratch.
+
 - I tried to collect data from the SpaceX REST API.
 - I used requests and BeautifulSoup to get Falcon 9 launch data from Wikipedia.
 - I cleaned the data with Pandas and created a column for landing success.
